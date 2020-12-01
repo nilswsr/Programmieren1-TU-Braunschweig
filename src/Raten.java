@@ -1,6 +1,12 @@
-import java.util.Scanner;
 
-public class Raten{
+import java.util.Scanner;
+public class Raten {
+    public static void main(String[] args) {
+        if(args.length > 0) {
+            computerRaten(Integer.parseInt(args[0]));
+
+
+
     public static void main(String[] args) {
         if (args.length == 0) {
             System.out.println("Ok");
@@ -24,6 +30,8 @@ public class Raten{
                 System.out.println("Die eingebene Zahl ist groesser als die gesuchte Zufallszahl");
             }
         }
+
         }
 
 }
+
