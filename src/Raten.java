@@ -1,19 +1,37 @@
+
+import java.util.Scanner;
 public class Raten {
     public static void main(String[] args) {
         if(args.length > 0) {
             computerRaten(Integer.parseInt(args[0]));
+
+
+
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Ok");
+            selberRaten();
         }
     }
 
-    private static void computerRaten(int arg) {
-        int count = 1;
+    private static void selberRaten() {
+        int zufallszahl = (int) (Math.random()*100);
+        Scanner sc = new Scanner(System.in);
         while(true) {
-            int randomint = (int) (Math.random() * 100);
-            if (randomint == arg) {
-                System.out.println(""+count);
+            int nextNumber = sc.nextInt();
+            if(nextNumber == zufallszahl) {
+                System.out.println("Geschafft!");
                 break;
             }
-            count++;
+            else if(nextNumber < zufallszahl) {
+                System.out.println("Die eingebene Zahl ist kleiner als die gesuchte Zufallszahl");
+            }
+            else {
+                System.out.println("Die eingebene Zahl ist groesser als die gesuchte Zufallszahl");
+            }
         }
-    }
+
+        }
+
 }
+
