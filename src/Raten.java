@@ -2,13 +2,10 @@
 import java.util.Scanner;
 public class Raten {
     public static void main(String[] args) {
-        if(args.length > 0) {
-            computerRaten(Integer.parseInt(args[0]));
-
-
-
-    public static void main(String[] args) {
-        if (args.length == 0) {
+        if (args.length > 0) {
+            //computerRaten(Integer.parseInt(args[0]));
+        }
+        else if (args.length == 0) {
             System.out.println("Ok");
             selberRaten();
         }

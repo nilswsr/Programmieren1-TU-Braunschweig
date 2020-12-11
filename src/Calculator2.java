@@ -7,11 +7,11 @@ public class Calculator2{
         String symbol = args[2];
 
         switch (symbol) {
-            case "+" -> out.println(a + b);
-            case "-" -> out.println(a - b);
-            case "*" -> out.println(a * b);
-            case "/" -> out.println(a*1.0 / b);
-            default -> out.println("Ungueltiger Paramater") ;
+            case "+": out.println(a + b); break;
+            case "-": out.println(a - b); break;
+            case "*": out.println(a * b); break;
+            case "/": out.println(a*1.0 / b); break;
+            default: out.println("Ungueltiger Paramater"); break;
         }
     }
 }
