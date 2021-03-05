@@ -1,4 +1,2 @@
 # Programmieren1_AG
-Test
-Jojojo, whats poppin?
-Whats cookin good lookin?
+Die Programmieren 1 AG in der Schule, in der wir die Hausaufgaben des Kurses "Programmieren 1" der TU Braunschweig machen.
