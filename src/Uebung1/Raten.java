@@ -1,3 +1,4 @@
+package Uebung1;
 
 import java.util.Scanner;
 public class Raten {
