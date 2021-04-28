@@ -1,8 +1,8 @@
 # Programmieren1 TU Braunschweig
-Der Programmieren1 Kurs der TU Braunschweig handelte von den grundlegenden Java-Strukturen sowie einem Einstieg in die objektorientierte Programmierung.
+The course "Programmieren1" by the "TU Braunschweig" was about basic Java and object-oriented programming.
 
 ## Was ich gelernt habe
 - Java Basics
-- Objektorientierte Programmierung
-- Umgang mit Build-Management-Automatisierungs-Tool "Gradle"
-- Unit-Tests mit dem Java-Framework "JUnit"
+- Object-oriented Programming
+- Using Build-Management-Automation-Tool "Gradle"
+- Unit-Tests with Java-Framework "JUnit"
